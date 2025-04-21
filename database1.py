@@ -13,6 +13,8 @@ cursor.execute("CREATE TABLE students (id INTEGER, name TEXT,grade INTEGER)")
 #insert some data in the table
 cursor.execute("INSERT INTO students VALUES(101,'John',4)")
 
+cursor.execute("INSERT INTO students VALUES(102,'Mike',3)")
+
 #commit the change into the database
 connection.commit()
 
